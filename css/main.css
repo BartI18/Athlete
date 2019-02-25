@@ -1,0 +1,277 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.ttf") format("ttf");
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "OpenSans-Regular", serif;
+}
+
+h2 {
+  font-family: "OpenSans-Bold", serif;
+}
+
+.Header {
+  background-image: url("../img/football_1920.jpg");
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Header-logoSVG {
+  fill: #ffffff;
+  align-self: center;
+  width: 20%;
+  padding-top: 2rem;
+}
+
+.Header-recruited {
+  margin-bottom: 0;
+  font-family: OpenSans-Bold, serif;
+  color: #ffffff;
+  padding-left: 25%;
+  font-size: 3rem;
+}
+
+.Header-playCollege {
+  color: #ffffff;
+  margin-left: 35%;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.Header-button {
+  display: flex;
+  justify-content: center;
+  background-color: #5C3DB2;
+  border: none;
+  border-radius: 2rem;
+  color: #ffffff;
+  align-self: center;
+  margin-bottom: 0.5rem;
+  margin-right: 2rem;
+  padding: 0.5rem  2rem;
+}
+
+.Header-buttonImg {
+  margin-right: 0.5rem;
+  width: 36px;
+  height: 36px;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.SectionSteps {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.SectionSteps-header {
+  font-size: 36px;
+  padding-left: 70%;
+  color: #dbdbdb;
+  z-index: 1;
+}
+
+.SectionSteps-header--basketBall {
+  padding-right: 50%;
+  padding-left: 1rem;
+}
+
+.SectionSteps-footballer {
+  align-self: center;
+  z-index: 1;
+  position: absolute;
+  width: 30%;
+  padding-left: 25%;
+  padding-bottom: 1rem;
+  margin-top: -5rem;
+}
+
+.SectionSteps-basketballer {
+  align-self: center;
+  z-index: 1;
+  position: absolute;
+  width: 45%;
+  padding-bottom: 1rem;
+  margin-top: -7.5rem;
+}
+
+.SectionSteps-picture {
+  z-index: 1;
+  padding-left: 30%;
+}
+
+.ArticleSteps {
+  margin-top: -1.5rem;
+  padding: 1.5rem 1rem 0 70%;
+}
+
+.ArticleSteps-h3 {
+  font-weight: bold;
+  color: #dbdbdb;
+  margin: 0;
+}
+
+.ArticleSteps-sup {
+  border-bottom: solid 0.25rem #5C3DB2;
+  margin-right: 0.5rem;
+}
+
+.ArticleSteps-sup--growth {
+  color: #000;
+  border-color: #ffffff;
+}
+
+.ArticleSteps-sup--growthDark {
+  color: #5C3DB2;
+}
+
+.ArticleSteps-p--growth {
+  color: #ffffff;
+}
+
+.ArticleSteps p {
+  font-size: 12px;
+}
+
+.ArticleSteps--connection {
+  background-color: #F4F3F8;
+  padding: 1rem 1rem 1rem 70%;
+  margin-top: 0;
+}
+
+.ArticleSteps--growth {
+  background-color: #5C3DB2;
+  padding: 1rem 1rem 1rem 70%;
+  margin-top: 0;
+}
+
+.ArticleSteps--growthDark {
+  background-color: #080a33;
+  padding: 1rem 0 1rem 70%;
+  margin-top: 0;
+}
+
+.ArticleSteps--basketBall {
+  padding-right: 60%;
+  padding-left: 1rem;
+}
+
+.SectionCard {
+  display: flex;
+  margin-bottom: -0.3rem;
+}
+
+.SectionCard--second {
+  flex-direction: row-reverse;
+}
+
+.SectionCard-block {
+  width: 50%;
+  display: flex;
+}
+
+.SectionCard-block--second {
+  flex-direction: row-reverse;
+}
+
+.SectionCard-img {
+  width: 100%;
+}
+
+.SectionCard-span {
+  background-color: #5C3DB2;
+  padding: 1.6rem 2rem;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: #ffffff;
+  color: #ffffff;
+  align-self: center;
+  margin: 0 -2.5rem;
+}
+
+.ArticleCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fafafa;
+  width: 50%;
+  margin-top: -1rem;
+  z-index: -1;
+}
+
+.ArticleCard-h3 {
+  font-weight: bold;
+  color: #dbdbdb;
+  padding-left: 4rem;
+}
+
+.ArticleCard-p {
+  width: 70%;
+  padding-left: 4rem;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/game_767.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Footer-block {
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-blockText {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0 5rem;
+}
+
+.Footer-img {
+  width: 36px;
+  height: 36px;
+  padding: 0.5rem;
+  background-color: #5C3DB2;
+  align-self: center;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+.Footer-h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.Footer-h3 {
+  color: #dbdbdb;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.Footer-logoSVG {
+  fill: #ffffff;
+  align-self: center;
+  width: 20%;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,224 @@
+@import "fontAndValues";
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "OpenSans-Regular", serif;
+}
+
+h2{
+  font-family: "OpenSans-Bold", serif;
+}
+
+.Header{
+  background-image: url("../img/football_767.jpg");
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &-logoSVG{
+    fill: $color-white;
+    align-self: center;
+    width: 50%;
+    padding-top: 2rem;
+    }
+
+  &-recruited{
+    font-family: OpenSans-Bold, serif;
+    color: $color-white;
+    padding-left: 5%;
+  }
+
+  &-playCollege{
+    color: $color-white;
+    margin-left: 30%;
+  }
+
+  &-button{
+    display: flex;
+    justify-content: center;
+    background-color: $color-button;
+    border: none;
+    border-radius: 2rem;
+    color: $color-white;
+    align-self: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    padding: 0.5rem 0;
+  }
+
+  &-buttonImg{
+    margin-right: 0.5rem;
+    width: 30px;
+    height: 30px;
+  }
+
+  &Container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+}
+
+.SectionSteps{
+  display: flex;
+  flex-direction: column;
+
+  &-header{
+    font-size: 36px;
+    margin-left: 1rem;
+    color: $color-greyFont;
+  }
+
+  &-footballer{
+    align-self: center;
+    z-index: 1;
+  }
+}
+
+.ArticleSteps{
+    background-color: $color-connection;
+    padding-top: 3.5rem;
+    margin-top: -3.5rem;
+    padding-left: 1rem;
+  z-index: -1;
+
+  &-h3{
+    font-weight: bold;
+    color: $color-greyFont;
+  }
+
+  &--basketBall{
+
+  }
+
+  &-sup{
+    border-bottom: solid 0.25rem #5C3DB2;
+    margin-right: 0.5rem;
+
+    &--growth{
+      color: #000;
+      border-color: $color-white;
+
+      &Dark{
+        color: $color-button;
+      }
+    }
+  }
+
+  &-p--growth{
+    color: $color-white;
+  }
+
+  &--connection{
+    background-color: $color-collaboration;
+    padding: 2rem 0 2rem 1rem;
+    margin-top: 0;
+  }
+
+  &--growth{
+    background-color: $color-button;
+    padding: 2rem 0 2rem 1rem;
+    margin-top: 0;
+
+    &Dark{
+      background-color: $color-growthDark;
+      padding: 2rem 0 2rem 1rem;
+      margin-top: 0;
+    }
+  }
+
+}
+
+.SectionCard{
+  display: flex;
+  flex-direction: column;
+
+  &-block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-img{
+    width: 100%;
+  }
+
+  &-span{
+    background-color: $color-button;
+    padding: 1.1rem 1.3rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: $color-white;
+    color: $color-white;
+    margin-left: 1rem;
+    margin-top: -2.5rem;
+    width: max-content;
+  }
+}
+
+.ArticleCard{
+  background-color: #fafafa;
+  padding: 1rem 2rem 2rem 1rem;
+  margin-top: -2rem;
+  z-index: -1;
+
+  &-h3{
+    font-weight: bold;
+    color: $color-greyFont;
+  }
+
+  &-p{
+    width: 70%;
+  }
+}
+
+.Footer{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/game_767.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-blockText{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-img{
+    width: 36px;
+    height: 36px;
+    padding: 0.5rem;
+    background-color: $color-button;
+    align-self: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+  }
+
+  &-h2{
+    color: $color-white;
+    text-align: center;
+    margin: 0;
+  }
+
+  &-h3{
+    color: $color-greyFont;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  &-logoSVG{
+    fill: $color-white;
+    align-self: center;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+  }
+}
