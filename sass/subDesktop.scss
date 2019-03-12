@@ -1,0 +1,16 @@
+@import "desktop";
+
+.SectionSteps{
+
+  &-basketballer{
+    width: 50%;
+    margin-top: -10rem;
+  }
+
+  &-picture{
+
+    &--basketballer{
+      padding-left: 40%;
+    }
+  }
+}

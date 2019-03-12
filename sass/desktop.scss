@@ -1,0 +1,201 @@
+@import "fontAndValues";
+
+.Header{
+  background-image: url("../img/football_1920.jpg");
+
+  &-logoSVG{
+    width: 10%;
+    margin-bottom: 10rem;
+  }
+
+  &-recruited{
+    margin-bottom: 0;
+    padding-left: 25%;
+    font-size: 3rem;
+  }
+
+  &-playCollege{
+    margin: 0 0 10rem 35%;
+    font-size: 3rem;
+  }
+
+  &-button{
+    width: auto;
+    margin-right: 2rem;
+    padding: 0.5rem  2rem;
+  }
+
+  &-buttonImg{
+    width: 36px;
+    height: 36px;
+  }
+
+  &Container{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
+
+.SectionSteps{
+  position: relative;
+
+  &-header{
+    padding-left: 55%;
+    z-index: 1;
+    font-size: 4rem;
+    margin-left: 0;
+
+    &--basketBall{
+      padding-right: 50%;
+      padding-left: 5%;
+    }
+  }
+
+  &-footballer{
+    position: absolute;
+    margin-top: -12rem;
+  }
+
+  &-basketballer{
+    align-self: center;
+    z-index: 1;
+    position: absolute;
+    padding-bottom: 1rem;
+    margin-top: -15rem;
+  }
+
+  &-picture{
+    z-index: 1;
+
+    &--basketballer{
+      padding-left: 30%;
+    }
+
+    &--footballer{
+      align-self: center;
+      padding-right: 75%;
+    }
+  }
+}
+
+.ArticleSteps{
+
+  &-h3{
+    margin: 0;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+
+  & p{
+    font-size: 1.1rem;
+  }
+
+  &--default{
+    padding: 1.5rem 1rem 1rem 55%;
+    background: none;
+  }
+
+  &--connection{
+    padding: 1rem 1rem 1rem 55%;
+  }
+
+  &--growth{
+    padding: 1rem 1rem 1rem 55%;
+
+    &Dark{
+      padding: 1rem 0 1rem 55%;
+    }
+  }
+
+  &--basketBall{
+    padding-right: 50%;
+    padding-left: 5%;
+  }
+
+}
+
+.SectionCard{
+  flex-direction: row;
+  margin-bottom: -0.3rem;
+
+  &--second{
+    flex-direction: row-reverse;
+  }
+
+  &-block{
+    width: 50%;
+    flex-direction: row;
+
+    &--second{
+      flex-direction: row-reverse;
+    }
+  }
+
+  &-span{
+    padding: 1.6rem 2rem;
+    align-self: center;
+    margin: 0 -2.5rem;
+  }
+}
+
+.ArticleCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fafafa;
+  width: 50%;
+  margin-top: 0;
+  z-index: -1;
+  padding: 0;
+
+  &-h3{
+    padding-left: 4rem;
+    font-size: 2rem;
+  }
+
+  &-p{
+    padding-left: 4rem;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+}
+
+.Footer{
+  background-image: url("../img/game_1920.jpg");
+
+  &-block{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &-blockText{
+    flex-direction: row;
+    justify-content: center;
+    margin: 10rem 0 5rem;
+  }
+
+  &-img{
+    margin: 0 1rem 0 0;
+    border-radius: 1rem;
+    width: auto;
+    height: auto;
+  }
+
+  &-h2{
+    font-size: 5rem;
+  }
+
+  &-h3{
+    font-size: 2rem;
+    margin: 0;
+    text-align: start;
+  }
+
+  &-logoSVG{
+    width: 20%;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+  }
+}
