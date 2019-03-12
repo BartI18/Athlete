@@ -3,17 +3,15 @@ $color-button:#5C3DB2;
 $color-greyFont: #dbdbdb;
 $color-connection: #fafafa;
 $color-collaboration:#F4F3F8;
-$color-growthDark: #080a33;
+$color-growthDark: #080a77;
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
-  src: url('../fonts/OpenSans-Bold.woff') format('woff'),
-  url('../fonts/OpenSans-Bold.woff2') format('woff2');
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+  url('../fonts/OpenSans-Bold.woff') format('woff');
 }
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
-  src: url('../fonts/OpenSans-Regular.woff') format('woff'),
-  url('../fonts/OpenSans-Regular.woff2') format('woff2');
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+  url('../fonts/OpenSans-Regular.woff') format('woff');
 }

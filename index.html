@@ -4,63 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sport</title>
-    <link rel="stylesheet" media="screen and (max-width: 320px)"
-          href="css/mobile.css" />
-    <link rel="stylesheet" media="screen and (max-width: 768px) and (min-width: 330px)"
-          href="css/tablet.css" />
-    <link rel="stylesheet" media="screen and (min-width: 769px)"
-          href="css/main.css" />
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 1024px) and (min-width: 426px)"
+          href="css/tablet.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 1440px) and (min-width: 1025px)"
+          href="css/subDesktop.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 1441px)"
+          href="css/desktop.css"/>
 </head>
 <body>
 <header class="Header">
-    <img class="Header-logoSVG" src="svg/surface_logo_text.svg"  alt="">
+    <img class="Header-logoSVG" src="svg/surface_logo_text.svg" alt="">
     <h2 class="Header-recruited">BE RECRUITED</h2>
     <h2 class="Header-playCollege">PLAY COLLEGE SPORT</h2>
     <div class="HeaderContainer">
-    <button class="Header-button">
-        <img  class="Header-buttonImg" src="svg/apple_logo_black.svg" alt="">
-        <label>DOWNLOAD ON THE <br><b>APP STORE</b></label></button>
-    <button class="Header-button">
-            <img class="Header-buttonImg" src="svg/google-play.svg" alt="" >
-        <label>GET IT ON <br><b>GOOGLE PLAY</b></label></button>
+        <button class="Header-button">
+            <img class="Header-buttonImg" src="svg/apple_logo_black.svg" alt="">
+            <label>DOWNLOAD ON THE <br><b>APP STORE</b></label></button>
+        <button class="Header-button">
+            <img class="Header-buttonImg" src="svg/google-play.svg" alt="">
+            <label>GET IT ON <br><b>GOOGLE PLAY</b></label></button>
     </div>
 </header>
 <main>
     <section class="SectionSteps">
         <h2 class="SectionSteps-header">ATHLETS</h2>
-        <picture style="z-index: 1;">
-            <source  media="(min-width: 621px)" srcset="img/footballer_497.png">
-            <source  media="(min-width: 769px)" srcset="img/footballer_566.png">
+        <picture class="SectionSteps-picture SectionSteps-picture--footballer">
+            <source media="(min-width: 426px)" srcset="img/footballer_497.png">
+            <source media="(min-width: 769px)" srcset="img/footballer_566.png">
             <img class="SectionSteps-footballer" src="img/footballer_192.png" alt="">
         </picture>
-        <article class="ArticleSteps">
+        <article class="ArticleSteps ArticleSteps--default">
             <h3 class="ArticleSteps-h3"><span>
                 <sup class="ArticleSteps-sup">01</sup></span>CONNECTION</h3>
             <p>Connect with coaches directly, you can ping coaches to view profile.</p>
         </article>
         <article class="ArticleSteps ArticleSteps--connection">
-        <h3 class="ArticleSteps-h3"><span>
+            <h3 class="ArticleSteps-h3"><span>
                 <sup class="ArticleSteps-sup">02</sup></span>COLLABORATION</h3>
-        <p>Work with other student athletes to increase visability. When you share and like other players videos it will increase your visability as a player.
-            This is the team work aspect to Surface 1.</p>
-    </article>
+            <p>Work with other student athletes to increase visability. When you share and like other players videos it
+                will increase your visability as a player.
+                This is the team work aspect to Surface 1.</p>
+        </article>
         <article class="ArticleSteps ArticleSteps--growth">
             <h3 class="ArticleSteps-h3"><span>
                 <sup class="ArticleSteps-sup ArticleSteps-sup--growth">03</sup></span>GROWTH</h3>
-            <p class="ArticleSteps-p--growth">Resources and tools for you to get better as a student Athelte. Access to training classes, tutor session, etc.</p>
+            <p class="ArticleSteps-p--growth">Resources and tools for you to get better as a student Athelte. Access to
+                training classes, tutor session, etc.</p>
         </article>
     </section>
     <section class="SectionSteps">
         <h2 class="SectionSteps-header SectionSteps-header--basketBall">PLAYERS</h2>
-        <picture class="SectionSteps-picture">
-            <source media="(min-width: 621px) and (max-width:768px)" srcset="img/basketballer_436.png">
-            <source media="(min-width: 800px)" srcset="img/basketballer_991.png">
+        <picture class="SectionSteps-picture SectionSteps-picture--basketballer">
+            <source media="(min-width: 426px) and (max-width:1024px)" srcset="img/basketballer_436.png">
+            <source media="(min-width: 1025px)" srcset="img/basketballer_991.png">
             <img class="SectionSteps-basketballer" src="img/basketballer_302.png" alt="">
         </picture>
-        <article class="ArticleSteps ArticleSteps--basketBall">
+        <article class="ArticleSteps ArticleSteps--default ArticleSteps--basketBall">
             <h3 class="ArticleSteps-h3"><span>
                 <sup class="ArticleSteps-sup">01</sup></span>CONNECTION</h3>
-            <p>Connect with talented athlete directly, you can watch  their skills through video  showreels directly from Surface 1.</p>
+            <p>Connect with talented athlete directly, you can watch their skills through video showreels directly from
+                Surface 1.</p>
         </article>
         <article class="ArticleSteps ArticleSteps--basketBall ArticleSteps--connection">
             <h3 class="ArticleSteps-h3"><span>
@@ -69,7 +73,8 @@
         </article>
         <article class="ArticleSteps ArticleSteps--basketBall ArticleSteps--growthDark">
             <h3 class="ArticleSteps-h3"><span>
-                <sup class="ArticleSteps-sup ArticleSteps-sup--growth ArticleSteps-sup--growthDark ">03</sup></span>GROWTH</h3>
+                <sup class="ArticleSteps-sup ArticleSteps-sup--growth ArticleSteps-sup--growthDark ">03</sup></span>GROWTH
+            </h3>
             <p class="ArticleSteps-p--growth">Save your time, recruit proper athlete for your team.</p>
         </article>
     </section>
@@ -93,7 +98,7 @@
                 <source media="(min-width: 800px)" srcset="img/find-contact_1024.jpg">
                 <img class="SectionCard-img" src="img/find-contact_640.jpg" alt="">
             </picture>
-        <span class="SectionCard-span">02</span></div>
+            <span class="SectionCard-span">02</span></div>
         <article class="ArticleCard">
             <h3 class="ArticleCard-h3">FIND CONTACT</h3>
             <p class="ArticleCard-p">Contact others to find rigth coach or athlete you are looking for.</p>
@@ -119,15 +124,17 @@
         <img class="Footer-img" src="svg/surface_logo.svg" alt="">
         <div><h2 class="Footer-h2">DOWNLOAD APP</h2>
             <h3 class="Footer-h3">SHOW EVERYONE WHAT YOU CAN DO!</h3>
-            </div>
+        </div>
     </div>
-    <div class="Footer-block"><button class="Header-button">
-        <img  class="Header-buttonImg" src="svg/apple_logo_black.svg" alt="">
-        <label>DOWNLOAD ON THE <br><b>APP STORE</b></label></button>
-    <button class="Header-button">
-        <img class="Header-buttonImg" src="svg/google-play.svg" alt="" >
-        <label>GET IT ON <br><b>GOOGLE PLAY</b></label></button></div>
-    <img class="Footer-logoSVG" src="svg/surface_logo_text.svg"  alt="">
+    <div class="Footer-block">
+        <button class="Header-button">
+            <img class="Header-buttonImg" src="svg/apple_logo_black.svg" alt="">
+            <label>DOWNLOAD ON THE <br><b>APP STORE</b></label></button>
+        <button class="Header-button">
+            <img class="Header-buttonImg" src="svg/google-play.svg" alt="">
+            <label>GET IT ON <br><b>GOOGLE PLAY</b></label></button>
+    </div>
+    <img class="Footer-logoSVG" src="svg/surface_logo_text.svg" alt="">
 </footer>
 </body>
 </html>

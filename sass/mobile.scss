@@ -1,42 +1,44 @@
 @import "fontAndValues";
 
-body{
+body {
   padding: 0;
   margin: 0;
   font-family: "OpenSans-Regular", serif;
 }
 
-h2{
+h2 {
   font-family: "OpenSans-Bold", serif;
 }
 
-.Header{
+.Header {
   background-image: url("../img/football_767.jpg");
+  background-color: #393bc1;
+  background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   font-size: 20px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
-  &-logoSVG{
+  &-logoSVG {
     fill: $color-white;
     align-self: center;
     width: 50%;
     padding-top: 2rem;
-    }
+  }
 
-  &-recruited{
+  &-recruited {
     font-family: OpenSans-Bold, serif;
     color: $color-white;
     padding-left: 5%;
   }
 
-  &-playCollege{
+  &-playCollege {
     color: $color-white;
     margin-left: 30%;
   }
 
-  &-button{
+  &-button {
     display: flex;
     justify-content: center;
     background-color: $color-button;
@@ -49,81 +51,88 @@ h2{
     padding: 0.5rem 0;
   }
 
-  &-buttonImg{
+  &-buttonImg {
     margin-right: 0.5rem;
     width: 30px;
     height: 30px;
   }
 
-  &Container{
+  &Container {
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
   }
 }
 
-.SectionSteps{
+.SectionSteps {
   display: flex;
   flex-direction: column;
 
-  &-header{
+  &-picture {
+
+    &--footballer {
+      align-self: center;
+    }
+  }
+
+  &-header {
     font-size: 36px;
     margin-left: 1rem;
     color: $color-greyFont;
   }
 
-  &-footballer{
+  &-footballer {
     align-self: center;
     z-index: 1;
   }
 }
 
-.ArticleSteps{
-    background-color: $color-connection;
-    padding-top: 3.5rem;
-    margin-top: -3.5rem;
-    padding-left: 1rem;
+.ArticleSteps {
+  background-color: $color-connection;
+  padding-top: 3.5rem;
+  margin-top: -3.5rem;
+  padding-left: 1rem;
   z-index: -1;
 
-  &-h3{
+  &-h3 {
     font-weight: bold;
     color: $color-greyFont;
   }
 
-  &--basketBall{
+  &--basketBall {
 
   }
 
-  &-sup{
+  &-sup {
     border-bottom: solid 0.25rem #5C3DB2;
     margin-right: 0.5rem;
 
-    &--growth{
+    &--growth {
       color: #000;
       border-color: $color-white;
 
-      &Dark{
+      &Dark {
         color: $color-button;
       }
     }
   }
 
-  &-p--growth{
+  &-p--growth {
     color: $color-white;
   }
 
-  &--connection{
+  &--connection {
     background-color: $color-collaboration;
     padding: 2rem 0 2rem 1rem;
     margin-top: 0;
   }
 
-  &--growth{
+  &--growth {
     background-color: $color-button;
     padding: 2rem 0 2rem 1rem;
     margin-top: 0;
 
-    &Dark{
+    &Dark {
       background-color: $color-growthDark;
       padding: 2rem 0 2rem 1rem;
       margin-top: 0;
@@ -132,20 +141,20 @@ h2{
 
 }
 
-.SectionCard{
+.SectionCard {
   display: flex;
   flex-direction: column;
 
-  &-block{
+  &-block {
     display: flex;
     flex-direction: column;
   }
 
-  &-img{
+  &-img {
     width: 100%;
   }
 
-  &-span{
+  &-span {
     background-color: $color-button;
     padding: 1.1rem 1.3rem;
     text-decoration-line: underline;
@@ -158,40 +167,42 @@ h2{
   }
 }
 
-.ArticleCard{
+.ArticleCard {
   background-color: #fafafa;
   padding: 1rem 2rem 2rem 1rem;
   margin-top: -2rem;
   z-index: -1;
 
-  &-h3{
+  &-h3 {
     font-weight: bold;
     color: $color-greyFont;
   }
 
-  &-p{
+  &-p {
     width: 70%;
   }
 }
 
-.Footer{
+.Footer {
   display: flex;
   flex-direction: column;
   background-image: url("../img/game_767.jpg");
+  background-color: #393bc1;
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
 
-  &-block{
+  &-block {
     display: flex;
     flex-direction: column;
   }
 
-  &-blockText{
+  &-blockText {
     display: flex;
     flex-direction: column;
   }
 
-  &-img{
+  &-img {
     width: 36px;
     height: 36px;
     padding: 0.5rem;
@@ -202,19 +213,19 @@ h2{
     border-radius: 1rem;
   }
 
-  &-h2{
+  &-h2 {
     color: $color-white;
     text-align: center;
     margin: 0;
   }
 
-  &-h3{
+  &-h3 {
     color: $color-greyFont;
     text-align: center;
     font-size: 14px;
   }
 
-  &-logoSVG{
+  &-logoSVG {
     fill: $color-white;
     align-self: center;
     width: 50%;
